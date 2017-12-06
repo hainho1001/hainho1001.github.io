@@ -5673,8 +5673,9 @@ textarea {
   .course-classify__remove {
     position: absolute;
     top: -0.5rem;
-    right: -0.625rem;
-    background: transparent; }
+    right: -0.5rem;
+    background: transparent;
+    padding: 0; }
     .course-classify__remove i {
       color: #002F58;
       font-size: 0.625rem;
