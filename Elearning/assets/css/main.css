@@ -5060,7 +5060,7 @@ textarea {
     justify-content: space-between;
     padding: 1.25rem 1.875rem;
     border-bottom: 2px solid #eff4f8;
-    align-items: start; }
+    align-items: flex-start; }
     .profile-channel__header__desc {
       font-family: Roboto-Regular;
       font-size: 0.875rem;
@@ -5667,7 +5667,8 @@ textarea {
     right: 0;
     width: 30px;
     height: 30px;
-    background: #0976d3; }
+    background: #0976d3;
+    text-align: center; }
     .course-classify__add i {
       color: #fff;
       font-size: 0.875rem; }
@@ -5678,7 +5679,7 @@ textarea {
     width: 1.5rem;
     height: 1.5rem;
     background: #EFF4F8;
-    border-radius: 50%;
+    border-radius: 100%;
     border: #002F58; }
     .course-classify__remove i {
       position: absolute;
