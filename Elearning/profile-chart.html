@@ -972,19 +972,13 @@
         </div>
     </div>
     <div class="profile-chart__body">
-        <div class="content">
-            <div class="wrapper">
-                <canvas id="chart-0"></canvas>
-            </div>
-            <div class="toolbar">
-                <button onclick="togglePropagate(this)">Propagate</button>
-                <button onclick="toggleSmooth(this)">Smooth</button>
-                <button onclick="randomize(this)">Randomize</button>
-            </div>
-            <div id="chart-analyser" class="analyser"></div>
+        <span class="profile-chart__text">Tỉ lệ làm đúng (%)</span>
+        <div>
+            <canvas id="chart-0" class="chart"></canvas>
         </div>
-
-
+        <div class="text-right">
+            <span class="profile-chart__text">Số bài tập đã làm</span>
+        </div>
     </div>
 </div>
 
@@ -1024,7 +1018,13 @@
         </div>
     </div>
     <div class="profile-chart__body">
-
+        <span class="profile-chart__text">Tỉ lệ làm đúng (%)</span>
+        <div>
+            <canvas id="chart-1" class="chart"></canvas>
+        </div>
+        <div class="text-right">
+            <span class="profile-chart__text">Số bài tập đã làm</span>
+        </div>
     </div>
 </div>
 <!-- END PROFILE CHART -->
