@@ -5665,28 +5665,22 @@ textarea {
     position: absolute;
     top: 0;
     right: 0;
-    width: 30px;
-    height: 30px;
-    background: #0976d3;
-    text-align: center; }
-    .course-classify__add i {
-      color: #fff;
-      font-size: 0.875rem; }
+    background: transparent;
+    padding: 0; }
+    .course-classify__add img {
+      width: 1.5625rem;
+      height: 1.5625rem; }
   .course-classify__remove {
     position: absolute;
-    top: -0.3125rem;
-    right: -0.3125rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: #EFF4F8;
-    border-radius: 100%;
-    border: #002F58; }
+    top: -0.5rem;
+    right: -0.625rem;
+    background: transparent; }
     .course-classify__remove i {
-      position: absolute;
-      top: 0.4375rem;
-      right: 0.4375rem;
       color: #002F58;
-      font-size: 0.625rem; }
+      font-size: 0.625rem;
+      background: #EFF4F8;
+      border-radius: 100%;
+      padding: 0.4375rem; }
   .course-classify__img {
     overflow: hidden; }
     .course-classify__img:hover .setRateImageBackground {
