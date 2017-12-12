@@ -12,41 +12,120 @@
 
 <body>
 <div class="wrapper">
-    <!-- HEADER -->
-<header class="d-flex flex-column align-items-center flex-sm-row justify-content-sm-between header">
-    <img class="header__logo" src="images/logo-1.png" alt="">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-end">
-        <div class="d-sm-flex align-items-center header__link">
+    <!-- Begin header -->
+<header class="header">
+    <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-between">
+        <div class="mt-3 mb-3 m-md-0 header__logo">
+            <img class="ml-md-4" src="images/logo-1.png" alt="">
+            <span>|</span>
             <a href="#">IMG Prestige</a>
-            <a href="#">Getting Here</a>
-            <a href="#">Contact Us</a>
         </div>
-        <div class="d-flex align-items-center header__action">
-            <a class="header__lan" href="#"><img src="images/icon-vn.png" alt=""></a>
-            <a class="header__book" href="#">BOOK NOW</a>
+        <div class="d-flex flex-column align-items-center justify-content-center flex-sm-row justify-content-sm-end mb-4 m-md-0">
+            <div class="d-flex align-items-center mb-3 m-sm-0">
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+                <a class="d-inline-block mr-4" href="#">
+                    <img src="images/icon-vn.png" alt="">
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="header__btn header__btn--light" href="#">PROMOTION</a>
+                <a class="header__btn header__btn--dark" href="#">BOOK NOW</a>
+            </div>
         </div>
     </div>
 
-</header>
-<aside class="jsHeaderOuter header-outer">
-    <img class="header-outer__logo" src="images/logo-2.png" alt="">
-    <div class="jsHeaderOuterMenu transition hidden header-outer__menu">
-        <a href="#">About Us</a>
-        <a href="#">Play Golf</a>
-        <a href="#">Learn Golf</a>
-        <a href="#">Events</a>
-        <a href="#">Facilities</a>
-        <a href="#">Media</a>
-        <a href="#">Contact</a>
+    <div class="header__menu">
+        <nav class="navbar navbar-expand-xl navbar-dark justify-content-end">
+            <img class="d-none d-xl-block" src="images/logo-2.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="img-golf.html">IMG Golf</a>
+                            <a class="dropdown-item" href="designer.html">The Designer</a>
+                            <a class="dropdown-item" href="getting.html">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Play Golf
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course.html">The Course</a>
+                            <a class="dropdown-item" href="hole.html">Hole by Hole</a>
+                            <a class="dropdown-item" href="rate.html">Rate and Promotion</a>
+                            <a class="dropdown-item" href="accommodation.html">Accommodation & Packages</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Learn Golf
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="academy.html">Golf Academy</a>
+                            <a class="dropdown-item" href="driving.html">Driving Range</a>
+                            <a class="dropdown-item" href="learn.html">Learn Golf Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Event</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Facilities
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="#">IMG Golf</a>
+                            <a class="dropdown-item" href="#">The Designer</a>
+                            <a class="dropdown-item" href="#">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Media
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="#">IMG Golf</a>
+                            <a class="dropdown-item" href="#">The Designer</a>
+                            <a class="dropdown-item" href="#">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <button class="jsHamburger hamburger hamburger--collapse" type="button">
-        <span class="header-outer__text">Menu</span>
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-</aside>
-<!-- END HEADER -->
+</header>
+<!-- End header -->
     <main>
         <!-- Begin banner -->
         <section class="banner">
@@ -124,94 +203,44 @@
         </section>
         <!-- End course feature -->
 
-        <!-- Begin course funtion -->
-        <section class="course-fu">
+        <!-- Begin course video -->
+        <section class="course-video">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="jsSetRate-55-21 course-fu__item" style="background:url(images/b20.png) center center / cover">
-                            <div class="d-flex align-items-center course-fu__mask">
-                                <div class="course-fu__blade">
-                                    <img src="images/golf.png" alt="">
-                                    <h2 class="course-fu__text1"><a href="#">Hole By Hole</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="jsSetRate-55-21 course-fu__item" style="background:url(images/b21.png) center center / cover">
-                            <div class="d-flex align-items-center course-fu__mask">
-                                <div class="course-fu__blade">
-                                    <img src="images/event.png" alt="">
-                                    <h2 class="course-fu__text1"><a href="#">Event</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center course-fu__banner" style="background:url(images/b22.png) center center / cover">
-                <div class="text-center course-fu__banner-content">
-                    <h2 class="course-fu__text2">Functions and Corporate Events</h2>
-                    <div class="course-fu__text3">Ba Na Hills Golf Club is the perfect venue for your corporate golf or team building event, as well as a stunning location for your wedding reception.</div>
-                    <div><a class="btn-red course-fu__btn" href="#">READ MORE</a></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="jsSetRate-55-21 course-fu__item" style="background:url(images/b23.png) center center / cover">
-                            <div class="d-flex align-items-center course-fu__mask">
-                                <div class="course-fu__blade">
-                                    <img src="images/cutlery.png" alt="">
-                                    <h2 class="course-fu__text1"><a href="#">Promotions</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="jsSetRate-55-21 course-fu__item" style="background:url(images/b24.png) center center / cover">
-                            <div class="d-flex align-items-center course-fu__mask">
-                                <div class="course-fu__blade">
-                                    <img src="images/shop.png" alt="">
-                                    <h2 class="course-fu__text1"><a href="#">Accommodation</a></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="course-video__item">
+                    <a class="jsSetRate-2-1 course-video__bg" href="#" style="background:url(images/b1.png) center center / cover">
+                        <img src="images/icon-play.png" alt="">
+                    </a>
                 </div>
             </div>
         </section>
-        <!-- End course funtion -->
+        <!-- End course video -->
     </main>
-    <!-- FOOTER -->
+    <!-- Begin footer -->
 <footer class="footer">
-    <div class="container text-center text-lg-left">
+    <div class="container">
         <div class="footer__content">
             <div class="row">
-                <div class="col-lg-4">
-                    <h2 class="footer__text1">Copyright © 2017 Ba Na Hills Golf ClubSite</h2>
-                    <div class="d-flex justify-content-center align-items-center justify-content-lg-start footer__dev">
-                        <div class="footer__text1">Develop by</div>
-                        <a href="#"><img class="footer__logo1" src="images/mnw.png" alt=""></a>
-                    </div>
-                    <a href="#"><img class="footer__logo2" src="images/tripadvisor.png" alt=""></a>
+                <div class="col-xl-3">
+                    <h2 class="footer__text">Copyright © 2017 Ba Na Hills Golf ClubSite</h2>
+                    <a href="#">
+                        <img class="footer__logo2" src="images/tripadvisor.png" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-7">
                     <div class="row">
                         <div class="col-sm-6 ">
                             <div class="row">
                                 <div class="col">
-                                    <div class="footer__text2">IMG</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">IMG</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">IMG Prestige</a>
                                         <a class="footer__link" href="#">Getting Here</a>
                                         <a class="footer__link" href="#">Contact Us</a>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="footer__text2">MENU</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">MENU</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">About Us</a>
                                         <a class="footer__link" href="#">Play Golf</a>
                                         <a class="footer__link" href="#">Learn Golf</a>
@@ -225,8 +254,8 @@
                         <div class="col-sm-6 ">
                             <div class="row">
                                 <div class="col">
-                                    <div class="footer__text2">PLAY GOLF</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">PLAY GOLF</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">The Course</a>
                                         <a class="footer__link" href="#">Night Golf</a>
                                         <a class="footer__link" href="#">Hole by Hole</a>
@@ -236,8 +265,8 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="footer__text2">LEARN GOLF</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">LEARN GOLF</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">Golf Academy</a>
                                         <a class="footer__link" href="#">Driving Range</a>
                                         <a class="footer__link" href="#">Learn Golf Events</a>
@@ -247,31 +276,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer__text2">FOLLOW US</div>
-                    <div class="d-flex flex-column footer__box">
-                        <div class="d-flex justify-content-center align-items-center justify-content-lg-between">
-                            <a class="footer__social" href="#"><img src="images/facebook.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/twitter.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/instagram.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/youtube.png" alt=""></a>
-                        </div>
-                        <!-- <div class="d-flex align-items-center footer__dev footer__dev--mini">
-                            <div class="footer__text1 footer__text1--mini">Develop by</div>
-                            <a href="#"><img class="footer__logo1 footer__logo1--mini" src="images/mnw.png" alt=""></a>
-                        </div> -->
-                        <div class="footer__text2 footer__text2--mini">Live stream 24/7</div>
-                        <div class="d-flex justify-content-center justify-content-lg-start">
-                            <a class="footer__btn-yt" href="#"><img src="images/icon-pyt.png" alt=""> On Youtube</a>
+                <div class="col-xl-2">
+                    <div class="d-flex flex-column mb-3">
+                        <div class="footer__title">Live stream 24/7</div>
+                        <a class="footer__btn-yt" href="#">
+                            <img src="images/icon-pyt.png" alt=""> On Youtube</a>
+                        <div class="d-flex align-items-center">
+                            <div class="footer__text">Develop</div>
+                            <a href="http://minaworks.vn/" target="_blank">
+                                <img class="footer__logo1" src="images/mnw.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
-<!-- END FOOTER -->
+<!-- End footer -->
 </div>
 <script src="js/vendor.min.js"></script>
 <script src="js/main.min.js"></script>

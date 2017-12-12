@@ -12,49 +12,126 @@
 
 <body>
 <div class="wrapper">
-    <!-- HEADER -->
-<header class="d-flex flex-column align-items-center flex-sm-row justify-content-sm-between header">
-    <img class="header__logo" src="images/logo-1.png" alt="">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-sm-end">
-        <div class="d-sm-flex align-items-center header__link">
+    <!-- Begin header -->
+<header class="header">
+    <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-between">
+        <div class="mt-3 mb-3 m-md-0 header__logo">
+            <img class="ml-md-4" src="images/logo-1.png" alt="">
+            <span>|</span>
             <a href="#">IMG Prestige</a>
-            <a href="#">Getting Here</a>
-            <a href="#">Contact Us</a>
         </div>
-        <div class="d-flex align-items-center header__action">
-            <a class="header__lan" href="#"><img src="images/icon-vn.png" alt=""></a>
-            <a class="header__book" href="#">BOOK NOW</a>
+        <div class="d-flex flex-column align-items-center justify-content-center flex-sm-row justify-content-sm-end mb-4 m-md-0">
+            <div class="d-flex align-items-center mb-3 m-sm-0">
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+                <a class="d-inline-block mr-4" href="#">
+                    <img src="images/icon-vn.png" alt="">
+                </a>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="header__btn header__btn--light" href="#">PROMOTION</a>
+                <a class="header__btn header__btn--dark" href="#">BOOK NOW</a>
+            </div>
         </div>
     </div>
 
-</header>
-<aside class="jsHeaderOuter header-outer">
-    <img class="header-outer__logo" src="images/logo-2.png" alt="">
-    <div class="jsHeaderOuterMenu transition hidden header-outer__menu">
-        <a href="#">About Us</a>
-        <a href="#">Play Golf</a>
-        <a href="#">Learn Golf</a>
-        <a href="#">Events</a>
-        <a href="#">Facilities</a>
-        <a href="#">Media</a>
-        <a href="#">Contact</a>
+    <div class="header__menu">
+        <nav class="navbar navbar-expand-xl navbar-dark justify-content-end">
+            <img class="d-none d-xl-block" src="images/logo-2.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="img-golf.html">IMG Golf</a>
+                            <a class="dropdown-item" href="designer.html">The Designer</a>
+                            <a class="dropdown-item" href="getting.html">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Play Golf
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course.html">The Course</a>
+                            <a class="dropdown-item" href="hole.html">Hole by Hole</a>
+                            <a class="dropdown-item" href="rate.html">Rate and Promotion</a>
+                            <a class="dropdown-item" href="accommodation.html">Accommodation & Packages</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Learn Golf
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="academy.html">Golf Academy</a>
+                            <a class="dropdown-item" href="driving.html">Driving Range</a>
+                            <a class="dropdown-item" href="learn.html">Learn Golf Events</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Event</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Facilities
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="#">IMG Golf</a>
+                            <a class="dropdown-item" href="#">The Designer</a>
+                            <a class="dropdown-item" href="#">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Media
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">About Ba Na Hill Golf</a>
+                            <a class="dropdown-item" href="#">IMG Golf</a>
+                            <a class="dropdown-item" href="#">The Designer</a>
+                            <a class="dropdown-item" href="#">Getting Here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-    <button class="jsHamburger hamburger hamburger--collapse" type="button">
-        <span class="header-outer__text">Menu</span>
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-</aside>
-<!-- END HEADER -->
+</header>
+<!-- End header -->
     <main>
         <!-- Begin banner -->
-        <section class="banner banner--md rate-banner" style="background:url(images/b28.png) center center / cover">
-            <div class="d-flex justify-content-center align-items-center mask">
-                <div class="banner__content">
-                    <h1 class="banner__text2 banner__text2--about">Rates</h1>
-                    <div class="banner__text3 banner__text3--about">Proin vel venenatis mi. Curabitur erat lectus, dignissim</div>
-                </div>
+        <section class="banner banner--md" style="background:url(images/b28.png) center center / cover">
+            <div class="d-flex flex-column justify-content-center align-items-center h-100 mr-3 ml-3 text-center">
+                <h1 class="banner__title">Rates & Promotion</h1>
+                <div class="banner__des">Proin vel venenatis mi. Curabitur erat lectus, dignissim</div>
             </div>
         </section>
         <!-- End banner -->
@@ -63,12 +140,12 @@
         <section class="rate">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 order-lg-2">
-                        <div class="mb-4 zoom-outer">
-                            <img class="w-100 zoom-inner" src="images/b29.png" alt="">
+                    <div class="col-lg-4 order-lg-2 mb-4">
+                        <div class="zoom-outer">
+                            <div class="jsSetRate-7-8 zoom-inner" style="background:url(images/b29.png) center center / cover"></div>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-lg-1 align-self-lg-center text-center text-sm-left">
+                    <div class="col-lg-8 order-lg-1 align-self-lg-center mb-4 text-center text-sm-left">
                         <div class="row">
                             <div class="col-sm-6">
                                 <h2 class="rate__title">Rates</h2>
@@ -77,46 +154,96 @@
                                     <br> Includes Green Fee/Caddy/Shared Cart</div>
                             </div>
                             <div class="col-sm-6">
-                                    <h2 class="rate__title">Opening Hours</h2>
-                                    <div class="rate__text">6am to 7:30pm</div>
+                                <h2 class="rate__title">Opening Hours</h2>
+                                <div class="rate__text">6am to 7:30pm</div>
                             </div>
                         </div>
-                        <div class="rate__text">Please note extended hours may be applicable during night golf tournaments. Floodlights will be available during the above operating hours at periods of high demand to allow golfers to complete their rounds.</div>
-                        <a class="mb-4 mx-auto ml-sm-0 btn-red rate__btn" href="#">VIEW RATES</a>
+                        <div class="rate__text">Please note extended hours may be applicable during night golf tournaments. Floodlights will be available
+                            during the above operating hours at periods of high demand to allow golfers to complete their
+                            rounds.
+                        </div>
+                        <a class="mx-auto ml-sm-0 btn-red rate__btn" href="#">VIEW RATES</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End rate -->
+
+        <!-- Begin rate promotions -->
+        <section class="rate-pmt">
+            <div class="container">
+                <div class="row pb-3">
+                    <div class="col-lg-6 mb-4">
+                        <div class="zoom-outer">
+                            <div class="jsSetRate-4-3 zoom-inner" style="background:url(images/b30.png) center center / cover"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center mb-4 pl-lg-5">
+                        <div class="rate-pmt__title">Promotions</div>
+                        <div class="rate-pmt__text1">Package inclusive</div>
+                        <ul class="rate-pmt__text2">
+                            <li>Unlimited golf</li>
+                            <li>Golf instruction on and off the course (4 hours per day)</li>
+                            <li>Accommodation at the Novotel – Han River</li>
+                            <li>Course transfers</li>
+                            <li>Lunch</li>
+                            <li>Private teaching space with Trackman and video analysis</li>
+                        </ul>
+                        <div class="rate-pmt__text3">From $450</div>
+                        <div class="rate-pmt__text4">*Terms and conditions apply</div>
+                        <a class="rate-pmt__text5" href="#">View more</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="rate-pmt__item">
+                            <a class="jsSetRate-9-5 rate-pmt__bg" href="#" style="background:url(images/b2.png) center center / cover">Promotion 1
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rate-pmt__item">
+                            <a class="jsSetRate-9-5 rate-pmt__bg" href="#" style="background:url(images/b2.png) center center / cover">Promotion 2
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rate-pmt__item">
+                            <a class="jsSetRate-9-5 rate-pmt__bg" href="#" style="background:url(images/b2.png) center center / cover">Promotion 3
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End rate promotions -->
     </main>
-    <!-- FOOTER -->
+    <!-- Begin footer -->
 <footer class="footer">
-    <div class="container text-center text-lg-left">
+    <div class="container">
         <div class="footer__content">
             <div class="row">
-                <div class="col-lg-4">
-                    <h2 class="footer__text1">Copyright © 2017 Ba Na Hills Golf ClubSite</h2>
-                    <div class="d-flex justify-content-center align-items-center justify-content-lg-start footer__dev">
-                        <div class="footer__text1">Develop by</div>
-                        <a href="#"><img class="footer__logo1" src="images/mnw.png" alt=""></a>
-                    </div>
-                    <a href="#"><img class="footer__logo2" src="images/tripadvisor.png" alt=""></a>
+                <div class="col-xl-3">
+                    <h2 class="footer__text">Copyright © 2017 Ba Na Hills Golf ClubSite</h2>
+                    <a href="#">
+                        <img class="footer__logo2" src="images/tripadvisor.png" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-7">
                     <div class="row">
                         <div class="col-sm-6 ">
                             <div class="row">
                                 <div class="col">
-                                    <div class="footer__text2">IMG</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">IMG</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">IMG Prestige</a>
                                         <a class="footer__link" href="#">Getting Here</a>
                                         <a class="footer__link" href="#">Contact Us</a>
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="footer__text2">MENU</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">MENU</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">About Us</a>
                                         <a class="footer__link" href="#">Play Golf</a>
                                         <a class="footer__link" href="#">Learn Golf</a>
@@ -130,8 +257,8 @@
                         <div class="col-sm-6 ">
                             <div class="row">
                                 <div class="col">
-                                    <div class="footer__text2">PLAY GOLF</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">PLAY GOLF</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">The Course</a>
                                         <a class="footer__link" href="#">Night Golf</a>
                                         <a class="footer__link" href="#">Hole by Hole</a>
@@ -141,8 +268,8 @@
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <div class="footer__text2">LEARN GOLF</div>
-                                    <div class="d-flex flex-column footer__box">
+                                    <div class="footer__title">LEARN GOLF</div>
+                                    <div class="d-flex flex-column mb-3">
                                         <a class="footer__link" href="#">Golf Academy</a>
                                         <a class="footer__link" href="#">Driving Range</a>
                                         <a class="footer__link" href="#">Learn Golf Events</a>
@@ -152,31 +279,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="footer__text2">FOLLOW US</div>
-                    <div class="d-flex flex-column footer__box">
-                        <div class="d-flex justify-content-center align-items-center justify-content-lg-between">
-                            <a class="footer__social" href="#"><img src="images/facebook.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/twitter.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/instagram.png" alt=""></a>
-                            <a class="footer__social" href="#"><img src="images/youtube.png" alt=""></a>
-                        </div>
-                        <!-- <div class="d-flex align-items-center footer__dev footer__dev--mini">
-                            <div class="footer__text1 footer__text1--mini">Develop by</div>
-                            <a href="#"><img class="footer__logo1 footer__logo1--mini" src="images/mnw.png" alt=""></a>
-                        </div> -->
-                        <div class="footer__text2 footer__text2--mini">Live stream 24/7</div>
-                        <div class="d-flex justify-content-center justify-content-lg-start">
-                            <a class="footer__btn-yt" href="#"><img src="images/icon-pyt.png" alt=""> On Youtube</a>
+                <div class="col-xl-2">
+                    <div class="d-flex flex-column mb-3">
+                        <div class="footer__title">Live stream 24/7</div>
+                        <a class="footer__btn-yt" href="#">
+                            <img src="images/icon-pyt.png" alt=""> On Youtube</a>
+                        <div class="d-flex align-items-center">
+                            <div class="footer__text">Develop</div>
+                            <a href="http://minaworks.vn/" target="_blank">
+                                <img class="footer__logo1" src="images/mnw.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
-<!-- END FOOTER -->
+<!-- End footer -->
 </div>
 <script src="js/vendor.min.js"></script>
 <script src="js/main.min.js"></script>
