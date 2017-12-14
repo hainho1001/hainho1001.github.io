@@ -2418,7 +2418,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.9375rem;
+  padding: 0.9375rem 1.875rem;
   border-bottom: 0.0625rem solid #eff4f8; }
 
 .modal-reply-result__title {
@@ -2430,7 +2430,7 @@ textarea {
 
 .modal-reply-result__body {
   display: block;
-  padding: 0.9375rem;
+  padding: 0.9375rem 1.875rem;
   border-bottom: 0.0625rem solid #eff4f8; }
 
 .modal-reply-result__balde {
@@ -2451,7 +2451,7 @@ textarea {
 .modal-reply-result__footer {
   display: flex;
   justify-content: space-between;
-  padding: 0.9375rem; }
+  padding: 0.9375rem 1.875rem; }
 
 .modal-reply-result__btn {
   width: 6.5625rem;
@@ -2549,23 +2549,23 @@ textarea {
     color: #0976d3; }
 
 @media (min-width: 1920px) {
-  .ui.large.modal {
+  .ui.large.modal.modal-remove {
     margin: 0 0 0 -270px; } }
 
 @media (min-width: 1200px) {
-  .ui.large.modal {
+  .ui.large.modal.modal-remove {
     margin: 0 0 0 -260px; } }
 
 @media (min-width: 992px) {
-  .ui.large.modal {
+  .ui.large.modal.modal-remove {
     margin: 0 0 0 -240px; } }
 
 @media (min-width: 768px) {
-  .ui.large.modal {
+  .ui.large.modal.modal-remove {
     margin: 0 0 0 -260px; } }
 
 @media (max-width: 767px) and (min-width: 576px) {
-  .ui.large.modal {
+  .ui.large.modal.modal-remove {
     margin: 0 0 0 -280px; } }
 
 @media (max-width: 575px) {
@@ -4000,6 +4000,7 @@ textarea {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
   background: #fff; }
   .profile-bar__avata {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -4011,14 +4012,44 @@ textarea {
     max-width: 10.3125rem;
     border-radius: 50%;
     margin-top: 0.21875rem;
-    margin-bottom: 0.75rem; }
+    margin-bottom: 1.25rem; }
   .profile-bar__avata-name {
     width: 100%;
     font-family: Montserrat-SemiBold;
     font-size: 0.9375rem;
     text-align: center;
     color: #2c2c2c;
-    line-height: 1.375rem; }
+    line-height: 1.375rem;
+    margin-bottom: 0.625rem; }
+  .profile-bar__avata-up {
+    position: absolute;
+    top: 177px; }
+  .profile-bar__avata-icon {
+    height: 30px;
+    width: 30px;
+    background: #0976D3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; }
+  .profile-bar__avata-follow {
+    width: 135px;
+    height: 40px;
+    font-size: 14px; }
+  .profile-bar__avata-unfollow {
+    font-family: Montserrat-SemiBold;
+    font-size: 14px;
+    background: #fff;
+    color: #2C2C2C;
+    text-decoration: uppercase;
+    width: 135px;
+    height: 40px;
+    border: 1px solid #CCC;
+    border-radius: 2px; }
+    .profile-bar__avata-unfollow:hover {
+      color: #0976D3;
+      border: 1px solid #0976D3; }
   .profile-bar__link {
     display: block;
     padding: 1.25rem 1.5625rem;
@@ -4678,6 +4709,8 @@ textarea {
     line-height: 1.375rem;
     text-transform: uppercase;
     color: #0976d3; }
+  .profile-chart__body {
+    padding: 1.5rem 1.875rem 1.875rem; }
   .profile-chart .ui.dropdown > .dropdown.icon:before {
     content: "\e948";
     font-size: 0.625rem; }
@@ -4724,6 +4757,21 @@ textarea {
     color: #002f58;
     line-height: 16px;
     text-align: left; }
+  .profile-chart__text2 {
+    padding-top: 0.9375rem;
+    font-family: Roboto-Bold;
+    font-size: 0.9375rem;
+    color: #2c2c2c; }
+  .profile-chart__pst {
+    position: relative; }
+  .profile-chart__hr {
+    position: absolute;
+    left: 2.1875rem;
+    top: 6.25rem;
+    width: 93.7%;
+    height: 0.125rem;
+    background: red;
+    opacity: 0.3; }
 
 @media (min-width: 48rem) {
   .profile-chart__header {
@@ -4731,9 +4779,27 @@ textarea {
   .profile-chart__title {
     margin-bottom: 0; } }
 
-@media (min-width: 62rem) {
+@media (max-width: 1199px) {
+  .profile-chart__hr {
+    width: 92.5%; } }
+
+@media (max-width: 991px) {
+  .profile-chart__hr {
+    width: 93.2%; } }
+
+@media (max-width: 767px) {
   .profile-chart__body {
-    padding: 1.5rem 1.875rem 1.875rem; } }
+    padding: 1.25rem 0.625rem; }
+  .profile-chart__hr {
+    width: 90.5%; } }
+
+@media (max-width: 500px) {
+  .profile-chart__hr {
+    width: 88.2%; } }
+
+@media (max-width: 373px) {
+  .profile-chart__hr {
+    top: 7.375rem; } }
 
 .profile-test {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
@@ -5025,7 +5091,13 @@ textarea {
     display: flex;
     flex-flow: row wrap; }
   .profile-blog .profile-control__btn {
-    position: relative; }
+    position: initial;
+    height: initial;
+    width: initial;
+    border-radius: initial;
+    padding: 5px 20px; }
+  .profile-blog .menu-control__btn {
+    opacity: 0.8; }
 
 @media (min-width: 24rem) {
   .profile-blog .ui.secondary.pointing.menu .item {
@@ -5672,8 +5744,8 @@ textarea {
       height: 1.5625rem; }
   .course-classify__remove {
     position: absolute;
-    top: -0.5rem;
-    right: -0.5rem;
+    top: -0.4375rem;
+    right: -0.4375rem;
     background: transparent;
     padding: 0; }
     .course-classify__remove i {
@@ -6407,7 +6479,10 @@ textarea {
 
 .aq__user {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 0.625rem; }
+  .aq__user__flex {
+    display: flex; }
 
 .aq__avata {
   margin-right: 0.875rem;
@@ -6478,6 +6553,9 @@ textarea {
     .aq__text7:hover i {
       color: #0976d3; }
 
+.aq .menu-control__btn {
+  opacity: 1; }
+
 .aq-detail {
   margin-bottom: 1.25rem;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
@@ -6515,6 +6593,8 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 1.25rem 1.875rem 0; }
+  .aq-detail .menu-control__btn {
+    opacity: 1; }
 
 .contact {
   max-width: 34.6875rem;
@@ -6891,6 +6971,12 @@ textarea {
       width: 3.5rem;
       height: 3.5rem;
       border-radius: 50%; }
+  .company-evaluation__dflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .company-evaluation__dflex .menu-control__btn {
+      opacity: 1; }
   .company-evaluation .d-sm-flex .company-evaluation__text3 {
     width: 13.4375rem;
     min-width: 13.4375rem;
@@ -7237,6 +7323,8 @@ textarea {
       color: #4a4a4a; }
     .interview-detail__reply .menu-control__btn {
       opacity: 1; }
+  .interview-detail .menu-control__interview {
+    opacity: 1; }
 
 .company-detail {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
