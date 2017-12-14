@@ -4000,12 +4000,9 @@ textarea {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.07);
   background: #fff; }
   .profile-bar__avata {
-    position: relative;
     display: flex;
-    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
-    -webkit-justify-content: center;
     align-items: center;
     padding: 1.65625rem 0.75rem;
     border-bottom: 0.0625rem solid #eff4f8; }
@@ -4022,10 +4019,10 @@ textarea {
     text-align: center;
     color: #2c2c2c;
     line-height: 1.375rem;
-    margin-bottom: 0.625rem; }
+    margin-bottom: 0.625rem;
+    margin-top: 10px; }
   .profile-bar__avata-up {
-    position: absolute;
-    top: 177px; }
+    margin-top: -40px; }
   .profile-bar__avata-icon {
     height: 30px;
     width: 30px;
@@ -4038,7 +4035,8 @@ textarea {
   .profile-bar__avata-follow {
     width: 135px;
     height: 40px;
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: center; }
   .profile-bar__avata-unfollow {
     font-family: Montserrat-SemiBold;
     font-size: 14px;
@@ -4048,7 +4046,8 @@ textarea {
     width: 135px;
     height: 40px;
     border: 1px solid #CCC;
-    border-radius: 2px; }
+    border-radius: 2px;
+    text-align: center; }
     .profile-bar__avata-unfollow:hover {
       color: #0976D3;
       border: 1px solid #0976D3; }
