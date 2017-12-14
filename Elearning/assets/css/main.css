@@ -4005,7 +4005,8 @@ textarea {
     justify-content: center;
     align-items: center;
     padding: 1.65625rem 0.75rem;
-    border-bottom: 0.0625rem solid #eff4f8; }
+    border-bottom: 0.0625rem solid #eff4f8;
+    text-align: center; }
   .profile-bar__avata-img {
     width: 71.45%;
     max-width: 10.3125rem;
