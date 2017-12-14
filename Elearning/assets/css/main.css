@@ -4034,18 +4034,15 @@ textarea {
     align-items: center;
     border-radius: 50%; }
   .profile-bar__avata-follow {
-    width: 135px;
-    height: 40px;
-    font-size: 14px;
-    text-align: center; }
+    padding: 8px 29px;
+    font-size: 14px; }
   .profile-bar__avata-unfollow {
     font-family: Montserrat-SemiBold;
     font-size: 14px;
     background: #fff;
     color: #2C2C2C;
     text-decoration: uppercase;
-    width: 135px;
-    height: 40px;
+    padding: 8px 25px;
     border: 1px solid #CCC;
     border-radius: 2px;
     text-align: center; }
@@ -5154,7 +5151,7 @@ textarea {
     font-size: 0.875rem; }
   .profile-channel__content {
     color: #cccccc;
-    min-height: 41.625rem;
+    min-height: 45.375rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -5197,7 +5194,7 @@ textarea {
   .profile-channel-yes {
     padding: 0rem 1.875rem 0.9375rem;
     border-bottom: 2px solid #eff4f8;
-    min-height: 41.625rem; }
+    min-height: 45.375rem; }
     .profile-channel-yes .profile-channel__header {
       padding: 0;
       padding-top: 1.25rem;
