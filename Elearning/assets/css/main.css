@@ -5171,15 +5171,25 @@ textarea {
     .profile-channel-detail .profile-channel__header {
       padding: 0;
       border-bottom: 1px solid #eff4f8; }
-    .profile-channel-detail__content {
-      padding: 1.875rem 1.875rem 0rem; }
-      .profile-channel-detail__content__desc {
-        font-size: 0.8125rem;
-        color: #4a4a4a;
-        padding-bottom: 0.625rem;
-        border-bottom: 0.0625rem solid #EFF4F8; }
-      .profile-channel-detail__content .course-classify__text2 {
+    .profile-channel-detail .profile-channel__heading {
+      padding: 0; }
+    .profile-channel-detail .profile-channel__btn {
+      padding: 0 0.625rem 0; }
+    .profile-channel-detail__box {
+      padding: 1.875rem 1.875rem 0rem;
+      border-bottom: 1px solid #EFF4F8; }
+      .profile-channel-detail__box .course-classify__text2 {
         font-size: 0.875rem; }
+    .profile-channel-detail__head {
+      font-family: Montserrat-SemiBold;
+      font-size: 15px;
+      color: #2C2C2C;
+      padding-bottom: 15px; }
+    .profile-channel-detail__desc {
+      font-size: 0.8125rem;
+      color: #4a4a4a;
+      padding-bottom: 0.625rem;
+      border-bottom: 0.0625rem solid #EFF4F8; }
     .profile-channel-detail__level {
       font-family: Roboto-Bold;
       font-size: 0.8125rem;
@@ -5222,6 +5232,16 @@ textarea {
     min-height: 18.75rem; }
   .profile-channel__button {
     margin-bottom: 1.875rem; } }
+
+@media (max-width: 575px) {
+  .profile-channel__header {
+    padding: 15px; }
+  .profile-channel-yes {
+    padding: 15px; }
+  .profile-channel-detail {
+    padding: 15px; }
+    .profile-channel-detail__box {
+      padding: 15px; } }
 
 .profile-password {
   padding: 0.9375rem 0.9375rem 1.5625rem;
@@ -6453,8 +6473,7 @@ textarea {
   color: #2c2c2c; }
 
 .aq__btn {
-  height: 2.5rem;
-  width: 9.6875rem;
+  padding: 0.4375rem 1.25rem;
   margin-bottom: 1.25rem;
   font-size: 0.9375rem; }
   .aq__btn i {
