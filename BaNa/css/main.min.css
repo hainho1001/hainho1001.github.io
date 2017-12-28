@@ -868,8 +868,7 @@ textarea:-ms-input-placeholder {
     .contact input:focus {
       outline: none; }
   .contact .btn-red {
-    width: 110px;
-    height: 50px;
+    padding: 14px 33px;
     margin-top: 10px;
     margin-bottom: 30px; }
   .contact__text3 {
@@ -1114,8 +1113,7 @@ textarea:-ms-input-placeholder {
     .contact input:focus {
       outline: none; }
   .contact .btn-red {
-    width: 110px;
-    height: 50px;
+    padding: 14px 33px;
     margin-top: 10px;
     margin-bottom: 30px; }
   .contact__text3 {
